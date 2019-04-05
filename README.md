@@ -19,7 +19,8 @@ Solution of Intel Scene Classification Problem getting accuracy of 94.2 %
 | label | Category of natural scene (target column) |
  
  
-
+![image](images/lr.PNG)
+![image](images/loss.PNG)
 ![image](images/Capture.PNG)
 ![image](images/Capture1.PNG)
 ![image](images/Capture3.PNG)
