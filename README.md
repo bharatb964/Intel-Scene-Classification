@@ -3,6 +3,8 @@ Solution of Intel Scene Classification Problem getting accuracy of 94.2 %
 ![image](images/Capture5.PNG)
 [Competition Link](https://datahack.analyticsvidhya.com/contest/practice-problem-intel-scene-classification-challe/)
 
+[Kaggle Link](https://www.kaggle.com/nitishabharathi/scene-classification)
+
 ```
 'buildings' -> 0
 'forest' -> 1
