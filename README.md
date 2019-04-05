@@ -5,6 +5,8 @@ Solution of Intel Scene Classification Problem getting accuracy of 94.2 %
 
 [Kaggle Link](https://www.kaggle.com/nitishabharathi/scene-classification)
 
+[Colab Link](https://colab.research.google.com/drive/1NggCLuuEJnxQo7DVThrDUW1yjEQn3XaN#scrollTo=xJUjD9s5g8s5)
+
 ```
 'buildings' -> 0
 'forest' -> 1
