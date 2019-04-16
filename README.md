@@ -3,7 +3,7 @@ Solution of Intel Scene Classification challenge getting accuracy of 94.2 %
 ![image](images/Capture5.PNG)
 [Competition Link](https://datahack.analyticsvidhya.com/contest/practice-problem-intel-scene-classification-challe/)
 
-[Colab Link](https://colab.research.google.com/drive/1NggCLuuEJnxQo7DVThrDUW1yjEQn3XaN#scrollTo=xJUjD9s5g8s5)
+[Link to Google Colab](https://colab.research.google.com/drive/1NggCLuuEJnxQo7DVThrDUW1yjEQn3XaN#scrollTo=xJUjD9s5g8s5)
 
 The Intel scene classification problem contained around 20000 images belonging to 6 classes i.e buildings, forests, glacier, mountain, sea and street. The challenge is to classify the images with more than 90% accuracy. The data for this challenge can be found [here](https://www.kaggle.com/nitishabharathi/scene-classification).
 
