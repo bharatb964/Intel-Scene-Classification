@@ -3,16 +3,11 @@ Solution of Intel Scene Classification challenge getting accuracy of 94.2 %
 ![image](images/Capture5.PNG)
 [Competition Link](https://datahack.analyticsvidhya.com/contest/practice-problem-intel-scene-classification-challe/)
 
-
-
 [Colab Link](https://colab.research.google.com/drive/1NggCLuuEJnxQo7DVThrDUW1yjEQn3XaN#scrollTo=xJUjD9s5g8s5)
-
 
 The Intel scene classification problem contained around 20000 images belonging to 6 classes i.e buildings, forests, glacier, mountain, sea and street. The challenge is to classify the images with more than 90% accuracy. The data for this challenge can be found [here](https://www.kaggle.com/nitishabharathi/scene-classification).
 
 Following are the classes and labels of the images given in the challenge:
-
-
 
 ```
 'buildings' -> 0
@@ -57,11 +52,14 @@ From above image we can see that the loss is minimum when using the learning rat
 
 <img src="images/loss.PNG" width="500">
 
+#### Confusion matrix:
 Lets plot the confusion matrix for the predicted images:
 
 <img src="images/Capture1.PNG" width="300">
 
-Lets plot some images and seet the labels. Im following images, the labels are in order of prediction/actual/loss/probability.
+We can see from the above confusion matrix that model is most confused in classes 0,5 and 2,3. Which are buildings vs street and glacier vs mountains respectively, which makes sense as many images with buildings contain strees and vice versa. Similarely its little dificult to segeragae between mountains and glaciers.
+
+Lets plot some images and seet the labels. Im following images, the labels are prediction/actual/loss/probability.
 
 <img src="images/Capture3.PNG" width="800">
 
@@ -69,3 +67,4 @@ Lets upload the results on the Analytic vidya wesite and see the ranking:
 
 <img src="images/Capture.PNG" width="800">
 
+We can see the the ranking in the Analytic vidya is 90 and the accuracy is 94.2% which is pretty good. We can furthur improve the accuracy with the hyperparameter tunings and image augmentations.
